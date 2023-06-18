@@ -1,21 +1,8 @@
 <template>
-<v-app>
-  <v-main>
-    <v-container class="h-screen d-flex align-center" >
-      <v-row>
-        <v-col>
-          <personal />
-        </v-col>
-        <v-col>
-          <pricing />
-        </v-col>
-      </v-row>
-    </v-container>
-  </v-main>
-</v-app>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
 </template>
 
 <script setup lang="ts">
-import pricing from './components/pricing.vue'
-import personal from './components/personal.vue'
 </script>
