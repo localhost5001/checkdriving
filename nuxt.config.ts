@@ -14,6 +14,7 @@ export default defineNuxtConfig({
   ],
   modules: [
     'nuxt-simple-sitemap',
+    '@nuxtjs/robots',
   ],
   runtimeConfig: {
     public: {
@@ -56,5 +57,5 @@ export default defineNuxtConfig({
         }
       ],
     }
-  }
+  },
 })
