@@ -12,6 +12,14 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/main.css',
   ],
+  modules: [
+    'nuxt-simple-sitemap',
+  ],
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://checkdrive.ca/',
+    }
+  },
   app: {
     head: {
       title: 'Check Drive Driving School | Driving Lessons in Richmond',
