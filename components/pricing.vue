@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white">
+  <div>
     <div class="text-center m-2">
       <h1 class="text-4xl font-semibold leadi">Pricing</h1>
     </div>

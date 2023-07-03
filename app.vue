@@ -1,11 +1,13 @@
 <template>
-<navBar /> 
-<section>
-  <greetingPage ref="greetingPageRef" @scroll-to-price="scrollToPrice"/>
-</section>
-<section ref="pricingRef">
-  <pricing/>
-</section>
+<div data-theme="business">
+  <navBar /> 
+  <section>
+    <greetingPage ref="greetingPageRef" @scroll-to-price="scrollToPrice"/>
+  </section>
+  <section ref="pricingRef">
+    <pricing/>
+  </section>
+</div>
 </template>
 
 <script setup lang="ts">
