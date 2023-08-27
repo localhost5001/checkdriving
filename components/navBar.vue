@@ -24,7 +24,7 @@
       </li>
     </ul>
   </div>
-  <div class="navbar-end">
+  <div class="navbar-end hidden lg:flex">
     <span class="font-bold text-lg">Contact:</span>
     <a href="tel:+16047254935" class="text-blue-500 font-medium mx-1 normal-case text-base">
       604 725 4935
@@ -34,7 +34,6 @@
 </template>
 
 <script setup lang="ts">
-
 const links = [
   {
     name: 'Home',
