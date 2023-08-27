@@ -17,7 +17,7 @@
             
               <div class="text-right mx-1">
               <span class="badge badge-primary">
-                ${{ priceWithDiscount(rate.amount, rate.discount) }}
+                {{ priceWithDiscount(rate.amount, rate.discount) }}$
               </span>
             </div>
           </div>
