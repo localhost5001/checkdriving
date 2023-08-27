@@ -6,9 +6,9 @@
 
     <div 
       class="
-          grid 
-          gap-6 grid-cols-1 
-          lg:gap-2 lg:grid-cols-3
+          grid gap-2
+          grid-cols-1 
+          lg:gap-2 lg:grid-cols-2 
           m-2
         "
       >
@@ -28,27 +28,18 @@ import type { PricingCardViewModel } from '@/models/pricingCardViewModel'
 
 const cards: PricingCardViewModel[] = [
   {
-    title: 'Individual',
+    title: 'Individual classes',
     rates: [
       { amount: 60, description: '1 Hour' },
-      { amount: 90, description: '1.5 Hours' },
-      { amount: 120, description: '2 Hours' },
+      { amount: 90, description: '1.5 Hours' }
     ],
   },
   {
-    title: '1 Hour Packages',
+    title: 'Packages (Each Class is 1.5 Hours)',
     rates: [
-      { amount: 300, description: '5 Lessons', discount: 10 },
-      { amount: 600, description: '10 Lessons', discount: 10 },
-      { amount: 900, description: '15 Lessons', discount: 10 },
-    ],
-  },
-  {
-    title: '1/2 Hour Packages',
-    rates: [
-      { amount: 450, description: '5 Lessons', discount: 10 },
-      { amount: 900, description: '10 Lessons', discount: 10 },
-      { amount: 1350, description: '15 Lessons', discount: 10 },
+      { amount: 400, description: '5 Classes (50$ discount)' },
+      { amount: 800, description: '10 Classes (100$ discount)' },
+      { amount: 1400, description: '20 Classes (200$ discount)' },
     ],
   },
 ]
