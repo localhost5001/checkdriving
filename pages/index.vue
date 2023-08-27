@@ -1,10 +1,12 @@
 <template>
-  <section>
-    <greetingPage ref="greetingPageRef" @scroll-to-price="scrollToPrice"/>
-  </section>
-  <section ref="pricingRef">
-    <pricing/>
-  </section>
+  <div>
+    <section>
+      <greetingPage ref="greetingPageRef" @scroll-to-price="scrollToPrice"/>
+    </section>
+    <section ref="pricingRef">
+      <pricing/>
+    </section>
+  </div>
 </template>
   
 <script setup lang="ts">

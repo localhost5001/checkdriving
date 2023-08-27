@@ -1,5 +1,5 @@
 <template>
-<div data-theme="business">
+<div >
   <navBar />
   <NuxtPage />
 </div>

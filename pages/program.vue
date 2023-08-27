@@ -1,31 +1,45 @@
 <template>
-  <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-  <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-    <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto">
+  <div class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-20">
+    <h5 class="mb-2 mb-8 text-4xl font-extrabold leading-none md:pl-2">
       Program Outline
-    </h2>
-    <p class="text-base md:text-lg">
-      Welcome to our comprehensive driving program at Check Driving School! 
-      Learn the art of driving with expert guidance and master essential skills such as pre-trip inspection, speed control, safe following distance, and more, all while experiencing the freedom of the road.
-    </p>
-  </div>
-  <div class="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl">
-    <div class="grid grid-cols-2 gap-5">
-      <div v-for="feature in features" class="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
-        <div class="mr-2">
-          <svg class="w-6 h-6 text-deep-purple-accent-400 sm:w-8 sm:h-8" stroke="currentColor" viewBox="0 0 52 52">
-            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-          </svg>
-        </div>
-        <span>{{ feature }}</span>
-      </div>
+    </h5>
+    <div class="grid gap-3 row-gap-3 lg:grid-cols-3">
+      <ul class="space-y-3">
+        <li v-for="item in items.slice(0, 9)" class="flex items-start">
+          <span class="mr-1">
+            <svg class="w-5 h-5 mt-px stroke-blue-500" stroke="currentColor" viewBox="0 0 52 52">
+              <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+          </span>
+          {{ item }}
+        </li>
+      </ul>
+      <ul class="space-y-3">
+        <li v-for="item in items.slice(9, 17)" class="flex items-start">
+          <span class="mr-1">
+            <svg class="w-5 h-5 mt-px stroke-blue-500" stroke="currentColor" viewBox="0 0 52 52">
+              <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+          </span>
+          {{ item }}
+        </li>
+      </ul>
+      <ul class="space-y-3">
+        <li v-for="item in items.slice(17, 22)" class="flex items-start">
+          <span class="mr-1">
+            <svg class="w-5 h-5 mt-px stroke-blue-500" stroke="currentColor" viewBox="0 0 52 52">
+              <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+          </span>
+          {{ item }}
+        </li>
+      </ul>
     </div>
   </div>
-</div>
 </template>
 
-<script setup lang="ts">
-const features = [
+<script setup lang="ts">  
+const items = [
   'Pre-Trip inspection',
   'Procedures before driving for the first time',
   'Straight tracking',
