@@ -44,8 +44,8 @@ const links = [
     href: '/about',
   },
   {
-    name: 'Contact',
-    href: '/contact',
+    name: 'Program Outline',
+    href: '/program',
   },
 ]
 </script>
