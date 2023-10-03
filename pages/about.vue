@@ -22,9 +22,7 @@
   <div class="grid grid-cols-1 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-3">
     <div v-for="item in items" class="text-center">
       <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-blue-500 ">
-        <svg class="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-        </svg>
+        <svg fill="#000000" class="fill-slate-300" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M5 16.577l2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z"/></svg>
       </div>
       <h6 class="mb-2 font-semibold leading-5">{{ item }}</h6>
     </div>

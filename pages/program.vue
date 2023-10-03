@@ -7,9 +7,7 @@
       <ul class="space-y-3">
         <li v-for="item in items.slice(0, 9)" class="flex items-start">
           <span class="mr-1">
-            <svg class="w-5 h-5 mt-px stroke-blue-500" stroke="currentColor" viewBox="0 0 52 52">
-              <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-            </svg>
+            <svg fill="#000000" class="w-5 h-5 mt-px fill-blue-500" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M5 16.577l2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z"/></svg>
           </span>
           {{ item }}
         </li>
@@ -17,9 +15,7 @@
       <ul class="space-y-3">
         <li v-for="item in items.slice(9, 17)" class="flex items-start">
           <span class="mr-1">
-            <svg class="w-5 h-5 mt-px stroke-blue-500" stroke="currentColor" viewBox="0 0 52 52">
-              <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-            </svg>
+            <svg fill="#000000" class="w-5 h-5 mt-px fill-blue-500" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M5 16.577l2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z"/></svg>
           </span>
           {{ item }}
         </li>
@@ -27,9 +23,7 @@
       <ul class="space-y-3">
         <li v-for="item in items.slice(17, 22)" class="flex items-start">
           <span class="mr-1">
-            <svg class="w-5 h-5 mt-px stroke-blue-500" stroke="currentColor" viewBox="0 0 52 52">
-              <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-            </svg>
+            <svg fill="#000000" class="w-5 h-5 mt-px fill-blue-500" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M5 16.577l2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z"/></svg>
           </span>
           {{ item }}
         </li>
