@@ -39,7 +39,7 @@ const cards: PricingCardViewModel[] = [
     rates: [
       { amount: 400, description: '5 Classes (50$ discount)' },
       { amount: 800, description: '10 Classes (100$ discount)' },
-      { amount: 1400, description: '20 Classes (200$ discount)' },
+      { amount: 1600, description: '20 Classes (200$ discount)' },
     ]
   },
 ]

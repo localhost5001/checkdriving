@@ -40,12 +40,12 @@ const items = [
   'Scanning',
   'Navigating traffic lights',
   'Point of no return',
-  'Ground view awareness (under parked cars)',
+  'Ground view awareness (incl. under parked cars)',
   'Speed control',
-  'Safe following distance',
-  'Stopping positions (for sign / lines and for stopped traffic ahead)',
+  'Maintaining a safe following distance',
+  'Stopping positions (for signs / lines and when traffic stops ahead)',
   'Right-of-way',
-  'Lane changes: quite road, busy roads (advanced)',
+  'Lane changes: quiet road, busy roads (advanced)',
   'Hazard recognition and Sign interpretation',
   'Turns',
   'Curb judgement',
@@ -55,6 +55,6 @@ const items = [
   'Parallel parking',
   'Reverse stall parking',
   'Highway driving aptitude',
-  'Navigating urban traffic (downtown Vancouver)'
+  'Navigating urban traffic (Downtown Vancouver)'
 ]
 </script>
