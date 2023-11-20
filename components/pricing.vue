@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class="text-center m-2">
-      <h1 class="text-4xl font-semibold leadi">Pricing</h1>
+      <h1 class="text-3xl text-gray-800 font-bold lg:text-4xl text-center">Pricing</h1>
     </div>
 
     <div 
       class="
           grid gap-2
-          grid-cols-1 
-          lg:gap-2 lg:grid-cols-2 
+          grid-cols-1
+          lg:gap-2 lg:grid-cols-3
           m-2
         "
       >
@@ -40,6 +40,13 @@ const cards: PricingCardViewModel[] = [
       { amount: 400, description: '5 Classes (50$ discount)' },
       { amount: 800, description: '10 Classes (100$ discount)' },
       { amount: 1600, description: '20 Classes (200$ discount)' },
+    ]
+  },
+  {
+    title: 'ICBC Road Test Package',
+    rates: [
+      { amount: 140, description: 'ICBC road test preparation - 2 hours' },
+      { amount: 140, description: 'Car rental for road test at ICBC' },
     ]
   },
 ]

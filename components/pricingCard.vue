@@ -1,10 +1,16 @@
 <template>
-  <div class="
-      felx flex-col overflow-hidden border-2 rounded-md 
-      border-gray-700 p-5"
+  <div 
+    class="
+      flex flex-col 
+      bg-white border 
+      border-gray-200 
+      shadow-sm 
+      rounded-xl 
+      p-4 
+      md:p-5"
     >
     <div class="text-center m-5">
-      <span class="text-2xl font-bold">{{ title }}</span>
+      <span class="text-2xl font-bold text-gray-800">{{ title }}</span>
     </div>
     <div class="py-4">
       <ul>
@@ -16,7 +22,7 @@
             </span>
             
               <div class="text-right mx-1">
-              <span class="badge bg-blue-500">
+              <span class="badge">
                 {{ priceWithDiscount(rate.amount, rate.discount) }}$
               </span>
             </div>
