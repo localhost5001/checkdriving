@@ -23,7 +23,7 @@
         <a 
           v-for="link in links" :key="link.href"
           class="font-medium"
-          :class="{ 'text-blue-500': route.path === link.href, 'text-gray-600 hover:text-gray-400': route.path !== link.href }" 
+          :class="{ 'text-teal-600': route.path === link.href, 'text-gray-600 hover:text-gray-400': route.path !== link.href }" 
           :href="link.href" 
           :area-current="route.path === link.href ? 'page' : null">
           {{ link.name }}
