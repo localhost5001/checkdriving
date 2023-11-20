@@ -13,24 +13,26 @@
   </div>
   <div class="grid grid-cols-1 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-3">
     <div v-for="item in items" class="text-center">
-      <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-blue-500 ">
-        <svg fill="#000000" class="fill-slate-300" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M5 16.577l2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z"/></svg>
+      <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4">
+        <svg 
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.7" stroke="currentColor" 
+          class="w-10 h-10 text-teal-600"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+        </svg>
       </div>
       <h6 class="mb-2 font-semibold leading-5">{{ item }}</h6>
     </div>
   </div>
   <div class="text-center">
-    <a
-      href="tel:+16047254935"
-      class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none bg-blue-500 btn"
-    >
-      604 725 4935
-      <span class="ml-1 -mr-2">
-        <svg class="w-8 h-8 text-white" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+    <a 
+      href="tel:+16047254935" 
+      class="relative group p-2 ps-3 inline-flex items-center gap-x-2 text-sm font-mono rounded-lg border border-gray-200 bg-teal-500 text-white shadow-sm hover:bg-teal-500/90 disabled:opacity-50 disabled:pointer-events-none">
+        604 725 4935
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
         </svg>
-      </span>
-    </a>
+      </a>
   </div>
 </div>
 </template>
