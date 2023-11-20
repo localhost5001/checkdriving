@@ -56,6 +56,13 @@ export default defineNuxtConfig({
 
         }
       ],
+      script: [
+        {
+          src: '/assets/preline/preline.js',
+          tagPosition: 'bodyOpen',
+          defer: true
+        }
+      ]
     }
   },
 })

@@ -7,12 +7,10 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
     "./app.vue",
+    "node_modules/preline/dist/*.js",
   ],
-  daisyui: {
-    themes: ["light", "dark", "business"],
-  },
   plugins: [
-    require("daisyui"),
-  ],
+    require('preline/plugin')
+  ]
 }
 
