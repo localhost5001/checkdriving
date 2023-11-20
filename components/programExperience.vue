@@ -1,8 +1,6 @@
 <template>
-<!-- Icon Blocks -->
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <div class="max-w-2xl mx-auto">
-    <!-- Grid -->
     <div class="grid gap-12">
       <div>
         <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl text-center">
@@ -22,10 +20,8 @@
         />
       </div>
     </div>
-    <!-- End Grid -->
   </div>
 </div>
-<!-- End Icon Blocks -->
 </template>
 
 <script setup lang="ts">
