@@ -7,10 +7,8 @@
       </span>
       Eugene Kim
     </h2>
-    <!-- <p class="text-base text-gray-700 md:text-lg">
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
-    </p> -->
   </div>
+
   <div class="grid grid-cols-1 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-3">
     <div v-for="item in items" class="text-center">
       <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4">
@@ -24,6 +22,16 @@
       <h6 class="mb-2 font-semibold leading-5">{{ item }}</h6>
     </div>
   </div>
+
+  <div class="grid grid-cols-1 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-3">
+    <StatItem 
+      v-for="stat in stats"
+      :key="stat.title"
+      :title="stat.title" 
+      :description="stat.description" 
+    />
+  </div>
+
   <div class="text-center">
     <a 
       href="tel:+16047254935" 
@@ -38,9 +46,12 @@
 </template>
 
 <script setup lang="ts">
-const items = [
-  'Class 1 driver’s licence',
-  'Certified instructor with lots of years of experience',
-  'Exceptional driving skills in all weather conditions'
+import StatItem from '@/components/statItem.vue'
+
+const stats = [
+  { title: 'Class 1', description: 'driver’s licence' },
+  { title: 'Certified', description: 'instructor with many years of expertise' },
+  { title: 'Exceptional', description: 'driving skills in all weather conditions' },
 ]
+
 </script>
