@@ -3,6 +3,7 @@
     <section>
       <greetingPage ref="greetingPageRef" @scroll-to-price="scrollToPrice"/>
     </section>
+    
     <section ref="pricingRef">
       <pricing/>
     </section>
@@ -13,7 +14,6 @@
 import { ref } from 'vue'
 
 import pricing from '@/components/pricing.vue'
-import navBar from '@/components/navBar.vue'
 import greetingPage from '@/components/greetingPage.vue'
 
 const greetingPageRef = ref<HTMLElement | null>(null)
