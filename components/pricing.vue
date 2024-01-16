@@ -30,23 +30,22 @@ const cards: PricingCardViewModel[] = [
   {
     title: 'Individual classes',
     rates: [
-      { amount: 70, description: '1 Hour' },
-      { amount: 90, description: '1.5 Hours' }
+      { amount: 80, description: '1 Hour' },
+      { amount: 100, description: '1.5 Hours' }
     ],
   },
   {
     title: 'Packages (Each Class is 1.5 Hours)',
     rates: [
-      { amount: 400, description: '5 Classes (50$ discount)' },
-      { amount: 800, description: '10 Classes (100$ discount)' },
-      { amount: 1600, description: '20 Classes (200$ discount)' },
+      { amount: 950, description: '10 Classes (50$ discount)' },
+      { amount: 1800, description: '20 Classes (100$ discount)' },
     ]
   },
   {
     title: 'ICBC Road Test Package',
     rates: [
-      { amount: 140, description: 'ICBC road test preparation - 2 hours' },
-      { amount: 140, description: 'Car rental for road test at ICBC' },
+      { amount: 150, description: 'ICBC road test preparation - 2 hours' },
+      { amount: 180, description: 'Car rental for road test at ICBC' },
     ]
   },
 ]
