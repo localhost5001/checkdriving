@@ -38,7 +38,7 @@ const cards: PricingCardViewModel[] = [
     title: 'Packages (Each Class is 1.5 Hours)',
     rates: [
       { amount: 950, description: '10 Classes (50$ discount)' },
-      { amount: 1800, description: '20 Classes (100$ discount)' },
+      { amount: 1800, description: '20 Classes (200$ discount)' },
     ]
   },
   {
