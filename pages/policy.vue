@@ -22,8 +22,5 @@ interface Policy {
   content: string
 }
 
-const { data: policies, error } = await useFetch<Policy[]>('/policies.json', {
-  cache: 'no-store',
-})
-console.log(error.value)
+const { data: policies } = await useFetch<Policy[]>('/policies.json', { server: false })
 </script>
