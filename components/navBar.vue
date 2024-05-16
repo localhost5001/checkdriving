@@ -52,5 +52,9 @@ const links = [
     name: 'Program Outline',
     href: '/program',
   },
+  {
+    name: 'Company Policies',
+    href: '/policy',
+  },
 ]
 </script>
