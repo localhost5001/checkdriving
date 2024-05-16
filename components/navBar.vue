@@ -53,7 +53,7 @@ const links = [
     href: '/program',
   },
   {
-    name: 'Company Policies',
+    name: 'Company Policy',
     href: '/policy',
   },
 ]
