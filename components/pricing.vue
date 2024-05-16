@@ -28,7 +28,7 @@ import type { PricingCardViewModel } from '@/models/pricingCardViewModel'
 
 const cards: PricingCardViewModel[] = [
   {
-    title: 'Individual classes',
+    title: 'Regular Single Lessons',
     rates: [
       { amount: 80, description: '1 Hour' },
       { amount: 100, description: '1.5 Hours' }
