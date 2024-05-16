@@ -34,7 +34,7 @@
 </template>
 
 <script setup lang="ts">
-import { Rate } from '@/models/rate'
+import type { Rate } from '@/models/rate'
 
 const {title} = defineProps<{
   title: string
