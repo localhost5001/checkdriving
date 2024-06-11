@@ -50,7 +50,7 @@ const items = [
   },
   { 
     title: 'Positive Environment', 
-    description: 'Learn in a friendly, encouraging atmosphere' 
+    description: 'Learn in a friendly, encouraging environment' 
   },
 ]
 </script>

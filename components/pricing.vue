@@ -35,17 +35,17 @@ const cards: PricingCardViewModel[] = [
     ],
   },
   {
-    title: 'Prepaid Package of Lessons (Each Class is 1.5 Hours)',
+    title: 'Prepaid Package of Lessons (Each Lesson is 1.5 Hours)',
     rates: [
-      { amount: 950, description: '10 Classes (50$ discount)' },
-      { amount: 1800, description: '20 Classes (200$ discount)' },
+      { amount: 950, description: '10 Lessons (You save 50$)' },
+      { amount: 1800, description: '20 Lessons (You save 200$)' },
     ]
   },
   {
     title: 'ICBC Road Test Package',
     rates: [
       { amount: 150, description: 'ICBC road test preparation - 2 hours' },
-      { amount: 180, description: 'Car rental for road test at ICBC' },
+      { amount: 200, description: 'Car rental for ICBC Road Test' },
     ]
   },
 ]
