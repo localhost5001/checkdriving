@@ -6,7 +6,7 @@
     <ol class="list-decimal marker:font-semibold marker:text-xl marker:text-gray-800">
       <li class="border-b border-gray-200 pb-4">
         <p>
-          Fees:	$80.00 per hour, $100.00 per 1.5 hours, Car rental for road test $200.00 
+          Fees:	$80.00 per hour, $100.00 per 1.5 hours, Car rental for road test $300.00
         </p>
 
         <ul class="list-none mt-1 ml-6 text-base">
@@ -24,10 +24,10 @@
 
       <li class="border-b border-gray-200 pb-4">
         <p>
-          If you wish to cancel a driving lesson, we require 48 hours notice otherwise a cancellation fee of $40.00 will be assessed.  
+          If you wish to cancel a driving lesson, we require 48 hours’ notice otherwise a cancellation fee of $40.00 will be assessed.  
         </p>
       </li>
-
+      
       <li class="border-b border-gray-200 pb-4" style="counter-set: chapter-count 2;">
         <p>
           For <span class="font-bold">canceling</span> a road test appointment made by Check Driving School, we require 72 hours notice, as we must notify ICBC.  
@@ -50,7 +50,7 @@
 
       <li class="border-b border-gray-200 pb-4">
         <p>
-          5There will be a maximum of 3 people (1 observing) in the Check Driving School vehicle during the student’s lesson time.
+          There will be a maximum of 3 people (1 observing) in the Check Driving School vehicle during the student’s lesson time.
         </p>
       </li>
 
