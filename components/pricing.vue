@@ -29,9 +29,9 @@ const cards: PricingCardViewModel[] = [
       {
         amount: 80,
         description: "1 Hour",
-        note: "Everywhere in Lower Mainlaind.",
+        note: "Anywhere in the Lower Mainland.",
       },
-      { amount: 100, description: "1.5 Hours", note: "Everywhere in Lower Mainlaind.",},
+      { amount: 100, description: "1.5 Hours", note: "Anywhere in the Lower Mainland.",},
       { amount: 65, description: "1 Hour", note: "* Lansdowne Skytrain Station pick-up & drop-off only *",},
     ],
   },
@@ -48,7 +48,7 @@ const cards: PricingCardViewModel[] = [
     title: "ICBC Road Test Package",
     rates: [
       { amount: 150, description: "ICBC road test preparation - 2 hours" },
-      { amount: 300, description: "Car rental for ICBC Road Test" },
+      { amount: 190, description: "Car rental for ICBC Road Test", note: "(1 Hour warm-up lesson included)" },
     ],
   },
 ];
