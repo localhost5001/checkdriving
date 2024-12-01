@@ -2,7 +2,7 @@
   <div
     class="flex flex-col bg-white border border-gray-200 shadow-sm rounded-xl p-4 md:p-5"
   >
-    <div class="text-center m-4 h-20">
+    <div class="text-center m-4 h-22 md:h-20">
       <span class="text-2xl font-bold text-gray-800">{{ title }}</span>
       <p class="text-sm font-bold text-gray-500 mt-2">{{ note }}</p>
     </div>
