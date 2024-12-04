@@ -48,7 +48,7 @@ const cards: PricingCardViewModel[] = [
     title: "ICBC Road Test Package",
     rates: [
       { amount: 150, description: "ICBC road test preparation - 2 hours" },
-      { amount: 190, description: "Car rental for ICBC Road Test", note: "(1 Hour warm-up lesson included)" },
+      { amount: 250, description: "Car rental for ICBC Road Test", note: "(1 Hour warm-up lesson included)" },
     ],
   },
 ];
