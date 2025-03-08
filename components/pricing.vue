@@ -32,16 +32,16 @@ const cards: PricingCardViewModel[] = [
         note: "Anywhere in the Lower Mainland.",
       },
       { amount: 100, description: "1.5 Hours", note: "Anywhere in the Lower Mainland.",},
-      { amount: 65, description: "1 Hour", note: "* Lansdowne Skytrain Station pick-up & drop-off only *",},
+      // { amount: 70, description: "1 Hour", note: "* Lansdowne Skytrain Station pick-up & drop-off only *",},
     ],
   },
   {
     title: "Prepaid Packages of Lessons (Each Lesson is 1 Hour)",
     note: "Note: Pick Up & Drop Off at Lansdowne Skytrain Station",
     rates: [
-      { amount: 650, description: "10 Lessons (You save $200)", note: "(1 Hour each X $65)", },
-      { amount: 1200, description: "20 Lessons (You save $500)", note: "(1 Hour each X $60)", },
-      { amount: 1650, description: "30 Lessons (You save $900)", note: "(1 Hour each X $55)",},
+      { amount: 650, description: "10 Lessons (You save $150)", note: "(1 Hour each X $65)", },
+      { amount: 1200, description: "20 Lessons (You save $400)", note: "(1 Hour each X $60)", },
+      { amount: 1650, description: "30 Lessons (You save $750)", note: "(1 Hour each X $55)",},
     ],
   },
   {
