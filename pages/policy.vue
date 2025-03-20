@@ -41,6 +41,11 @@
           If the student has pre-paid for driving lessons or a road test session, there will be no refund given in cases of insufficient notice of cancellation <span class="font-bold">(see 2 and 3 above)</span>.
         </p>
       </li>
+      <li class="border-b border-gray-200 pb-4">
+        <p>
+          Students who request a refund for unused lessons in a pre-paid package will have completed lessons recalculated at the standard hourly rate (without the package discount). The refunded amount will be adjusted accordingly, ensuring fairness as the discount applies only when all lessons are used.
+        </p>
+      </li>
 
       <li class="border-b border-gray-200 pb-4">
         <p>
@@ -59,6 +64,16 @@
           Road tests can be booked either by the student or by Check Driving School. The student must sign a consent and release form before Check Driving School may book a road test on their behalf. 
           Students must be in an active training program, taking driving lessons, within 7 days of a road test booked by Check Driving School, or 
           Check Driving School reserves the right to cancel any road test appointments it has made.  
+        </p>
+      </li>
+      <li class="border-b border-gray-200 pb-4">
+        <p>
+          If a student wishes to use Check Drive's car for their road test, this must be discussed and confirmed with their instructor in advance to ensure availability and proper preparation.
+        </p>
+      </li>
+      <li class="border-b border-gray-200 pb-4">
+        <p>
+          The instructor reserves the right to withhold the use of the vehicle for the road test if they determine the student is not yet prepared, prioritizing the safety of the student and others on the road.
         </p>
       </li>
     </ol>
