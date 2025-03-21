@@ -31,7 +31,7 @@ const cards: PricingCardViewModel[] = [
         description: "1 Hour",
         note: "Anywhere in the Lower Mainland.",
       },
-      { amount: 100, description: "1.5 Hours", note: "Anywhere in the Lower Mainland.",},
+      { amount: 110, description: "1.5 Hours", note: "Anywhere in the Lower Mainland.",},
       // { amount: 70, description: "1 Hour", note: "* Lansdowne Skytrain Station pick-up & drop-off only *",},
     ],
   },
