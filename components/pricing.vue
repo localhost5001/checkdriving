@@ -25,13 +25,14 @@ import type { PricingCardViewModel } from "@/models/pricingCardViewModel";
 const cards: PricingCardViewModel[] = [
   {
     title: "Regular Single Lessons",
+    note: "Anywhere in the Lower Mainland",
     rates: [
       {
         amount: 80,
-        description: "1 Hour",
-        note: "Anywhere in the Lower Mainland.",
+        description: "1 Hour"
       },
-      { amount: 110, description: "1.5 Hours", note: "Anywhere in the Lower Mainland.",},
+      { amount: 120,
+        description: "1.5 Hours"},
       // { amount: 70, description: "1 Hour", note: "* Lansdowne Skytrain Station pick-up & drop-off only *",},
     ],
   },
@@ -39,9 +40,10 @@ const cards: PricingCardViewModel[] = [
     title: "Prepaid Packages of Lessons (Each Lesson is 1 Hour)",
     note: "Note: Pick Up & Drop Off at Lansdowne Skytrain Station",
     rates: [
-      { amount: 650, description: "10 Lessons (You save $150)", note: "(1 Hour each X $65)", },
-      { amount: 1200, description: "20 Lessons (You save $400)", note: "(1 Hour each X $60)", },
-      { amount: 1650, description: "30 Lessons (You save $750)", note: "(1 Hour each X $55)",},
+      { amount: 65, description: "1 Hour"},
+      { amount: 300, description: "5 Lessons", note: "(1 Hour each X $60)", },
+      { amount: 550, description: "10 Lessons", note: "(1 Hour each X $55)", },
+      { amount: 750, description: "15 Lessons", note: "(1 Hour each X $50)",},
     ],
   },
   {
