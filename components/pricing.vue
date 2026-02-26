@@ -40,10 +40,10 @@ const cards: PricingCardViewModel[] = [
     title: "Prepaid Packages of Lessons (Each Lesson is 1 Hour)",
     note: "Note: Pick Up & Drop Off at Lansdowne Skytrain Station",
     rates: [
-      { amount: 65, description: "1 Hour"},
-      { amount: 300, description: "5 Lessons", note: "(1 Hour each X $60)", },
-      { amount: 550, description: "10 Lessons", note: "(1 Hour each X $55)", },
-      { amount: 750, description: "15 Lessons", note: "(1 Hour each X $50)",},
+      { amount: 75, description: "1 Hour"},
+      { amount: 350, description: "5 Lessons", note: "(1 Hour each X $70)", },
+      { amount: 650, description: "10 Lessons", note: "(1 Hour each X $65)", },
+      { amount: 900, description: "15 Lessons", note: "(1 Hour each X $60)",},
     ],
   },
   {
