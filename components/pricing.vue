@@ -21,6 +21,15 @@
 <script setup lang="ts">
 import pricingCard from "./pricingCard.vue";
 import type { PricingCardViewModel } from "@/models/pricingCardViewModel";
+import type { Rate } from "~/models/rate";
+
+const GenerateRate = (lessonPrice: number, numberOfLessons: number, options?: { customNote?: string, customDescription?: string }): Rate => {
+  return { 
+    amount: lessonPrice * numberOfLessons, 
+    description: options?.customDescription ?? `${numberOfLessons} Lessons`, 
+    note: options?.customNote ?? `(1 Hour each X $${lessonPrice})`
+  }
+}
 
 const cards: PricingCardViewModel[] = [
   {
@@ -28,10 +37,10 @@ const cards: PricingCardViewModel[] = [
     note: "Anywhere in the Lower Mainland",
     rates: [
       {
-        amount: 80,
+        amount: 100,
         description: "1 Hour"
       },
-      { amount: 120,
+      { amount: 140,
         description: "1.5 Hours"},
       // { amount: 70, description: "1 Hour", note: "* Lansdowne Skytrain Station pick-up & drop-off only *",},
     ],
@@ -40,10 +49,10 @@ const cards: PricingCardViewModel[] = [
     title: "Prepaid Packages of Lessons (Each Lesson is 1 Hour)",
     note: "Note: Pick Up & Drop Off at Lansdowne Skytrain Station",
     rates: [
-      { amount: 80, description: "1 Hour"},
-      { amount: 350, description: "5 Lessons", note: "(1 Hour each X $70)", },
-      { amount: 650, description: "10 Lessons", note: "(1 Hour each X $65)", },
-      { amount: 900, description: "15 Lessons", note: "(1 Hour each X $60)",},
+      GenerateRate(90, 1, { customNote: '', customDescription: '1 Hour' }),
+      GenerateRate(80, 5),
+      GenerateRate(75, 10),
+      GenerateRate(70, 15),
     ],
   },
   {
