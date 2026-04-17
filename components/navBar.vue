@@ -64,7 +64,8 @@ const route = useRoute()
 
 const links = [
   { name: 'Home', href: '/' },
-  { name: 'Program Outline', href: '/program' },
+  { name: 'Our Method', href: '/method' },
+  { name: 'Programs & Pricing', href: '/pricing' },
   { name: 'Company Policy', href: '/policy' },
 ]
 </script>

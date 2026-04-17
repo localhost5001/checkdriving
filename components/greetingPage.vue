@@ -45,16 +45,15 @@
     </ul>
 
     <div class="mt-10 gap-3 flex flex-wrap justify-center">
-      <a
-        @click="() => emit('scrollToPrice')"
-        class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl bg-teal-500 hover:bg-teal-500/90 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4 cursor-pointer"
-        href="#"
+      <NuxtLink
+        to="/pricing"
+        class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl bg-teal-500 hover:bg-teal-500/90 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4"
       >
         View Programs & Pricing
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
           <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
         </svg>
-      </a>
+      </NuxtLink>
       <a
         href="tel:+16047254935"
         class="relative group p-2 ps-3 inline-flex items-center gap-x-2 text-sm font-mono rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50"
@@ -70,8 +69,6 @@
 </template>
 
 <script setup lang="ts">
-const emit = defineEmits(['scrollToPrice'])
-
 const bullets = [
   'Clear explanations before every lesson',
   'Structured training — no guessing',
