@@ -11,7 +11,7 @@
     v-if="featured"
     class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full bg-gradient-to-tl from-teal-700 to-green-600 text-white text-xs font-semibold uppercase tracking-wider shadow-sm whitespace-nowrap"
   >
-    Best Value
+    Most Popular
   </span>
 
   <div class="flex items-center gap-x-2">
@@ -58,7 +58,7 @@
     class="mt-5 rounded-lg bg-teal-50 border border-teal-200 p-4"
   >
     <p class="text-sm font-semibold text-teal-800">{{ savings.label }}</p>
-    <ul class="mt-2 space-y-1.5">
+    <ul v-if="savings.items && savings.items.length" class="mt-2 space-y-1.5">
       <li
         v-for="item in savings.items" :key="item"
         class="flex items-start gap-x-2 text-sm text-teal-900"
@@ -102,7 +102,7 @@ const props = defineProps<{
   tip?: string
   savings?: {
     label: string
-    items: string[]
+    items?: string[]
   }
   paymentOptions?: { label: string, detail?: string }[]
   featured?: boolean
